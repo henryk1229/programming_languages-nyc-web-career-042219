@@ -8,7 +8,7 @@ def reformat_languages(languages)
           language_keys[language] = {}
         end
         language_keys[:style] = []
-        
+        language_keys[:style] << 
       end
     end
   end
