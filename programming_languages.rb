@@ -5,7 +5,7 @@ def reformat_languages(languages)
   languages.each do |first_hash, language_hash|
     language_hash.each do | language, attributes|
       attributes.each do |key, value|
-        if language_hash
+        if language_hash[language].nil? 
         
       end
     end
