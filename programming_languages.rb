@@ -3,7 +3,8 @@ def reformat_languages(languages)
   array = []
   new_hash = {}
   languages.each do |first_hash, language_hash|
-    language_hash.each do | 
+    language_hash.each do | language, attributes|
+      
         
       end
     end
