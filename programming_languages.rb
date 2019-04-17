@@ -1,11 +1,11 @@
 def reformat_languages(languages)
   # your code here
-  new_hash = {}
+  language_keys = {}
   languages.each do |first_hash, language_hash|
     language_hash.each do | language, attributes|
       attributes.each do |key, value|
-        if language_hash[language].nil? 
-          new_hash
+        if language_keys[language].nil?
+          
         
       end
     end
