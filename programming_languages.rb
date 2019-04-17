@@ -2,10 +2,8 @@ def reformat_languages(languages)
   # your code here
   array = []
   new_hash = {}
-  languages.each do |language_hash, language|
-    if language_hash == :oo 
-      value.each do |key, value|
-        new_hash[:key] = "#{value}"
+  languages.each do |first_hash, language_hash|
+    language_hash.each do | 
         
       end
     end
