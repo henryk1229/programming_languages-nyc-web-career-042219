@@ -9,8 +9,8 @@ def reformat_languages(languages)
         end
         language_keys[:style] = []
         language_keys[:style] << first_hash
-        if language_keys[language][attributes].nil?
-          language_key[language][attributes]
+        if language_keys[language][attribute].nil?
+          language_key[language][attributes] = 
       end
     end
   end
