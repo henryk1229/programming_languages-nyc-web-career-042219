@@ -7,7 +7,7 @@ def reformat_languages(languages)
         if language_keys[language].nil?
           language_keys[language] = {}
         end
-        
+        language_keys[:style]
         
       end
     end
