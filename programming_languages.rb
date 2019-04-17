@@ -6,6 +6,8 @@ def reformat_languages(languages)
       attributes.each do |key, value|
         if language_keys[language].nil?
           language_keys[language] = {}
+        end
+        
         
       end
     end
