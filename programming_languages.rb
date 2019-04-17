@@ -15,5 +15,5 @@ def reformat_languages(languages)
       end
     end
   end
-language_keys
+  language_keys
 end
